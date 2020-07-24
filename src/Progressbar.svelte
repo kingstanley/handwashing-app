@@ -9,8 +9,15 @@
   }
 </style>
 
-<div bp="offset-5@md 4@md 12@sm">
-  <div class="progress-container">
-    <div class="progress-bar" style="width: 20%" />
+<script>
+    export let progress = 20;
+</script>
+
+<div bp="grid">
+
+  <div bp="offset-5@md 4@md 12@sm">
+    <div class="progress-container">
+      <div class="progress-bar" style="width: {progress}%" />
+    </div>
   </div>
 </div>
