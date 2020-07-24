@@ -1,0 +1,23 @@
+
+@import url('http://fonts.googleapis.com/css?family=Lato:wght@900&display=swap&subset=latin,latin-ext');
+
+body{
+    font-family: 'Lato',  sans-serif;
+}
+
+button{
+    border:none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-style: 16px;
+    outline: none;
+    flex: 1;
+    cursor: pointer;
+
+}
+.sr-only{
+    display: none;
+}
